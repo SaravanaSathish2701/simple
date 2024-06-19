@@ -1,0 +1,55 @@
+.container{
+    position: fixed;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    top: 100px;
+    right: 650px;
+}
+
+.form{
+    height: 300px;
+    width: 400px;
+    background-color: lightgrey;
+    text-align: center;
+    justify-content: center;
+}
+
+label{
+    margin: 5px;
+    display: block;
+    font-size: 15px;
+}
+
+input{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+button{
+   margin: 10px;
+   border: 1px solid black;
+   border-radius: 8px;
+   font-size: 15px;
+   background-color: red;
+}
+
+#tables{
+    height: 300px;
+    width: 300px;
+    overflow: auto;
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    font-size: 15px;
+}
+
+th{
+    width: 10%
+}
+
