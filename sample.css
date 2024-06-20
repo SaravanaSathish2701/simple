@@ -4,12 +4,12 @@
     align-items: center;
     justify-content: center;
     top: 100px;
-    right: 650px;
+    right: 500px;
 }
 
 .form{
     height: 300px;
-    width: 400px;
+    width: 700px;
     background-color: lightgrey;
     text-align: center;
     justify-content: center;
@@ -38,7 +38,7 @@ button{
 
 #tables{
     height: 300px;
-    width: 300px;
+    width: 600px;
     overflow: auto;
 }
 
@@ -50,6 +50,9 @@ table,th,td{
 }
 
 th{
-    width: 10%
+    width: 50%
 }
 
+#error1, #error2, #error3, #error4 {
+    color: red;
+}

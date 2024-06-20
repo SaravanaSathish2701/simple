@@ -7,14 +7,20 @@
         <link rel="stylesheet" href="./sample.css">
     </head>
     <body>
+
+        <script src="sample.js"></script>
+
        <div class="container">
         <div class="form">
             <label>First Name: <input id="firstName" type="text" placeholder="Enter your first name..."></label>
             <label>Last Name: <input id="lastName" type="text" placeholder="Enter your last name..."></label>
             <label>Email ID: <input id="email" type="text" placeholder="Enter your email..."></label>
             <label>Mobile No: <input id="mobileNo" type="text"></label>
-            <span id="error"></span>
-            <button onClick="createTable()">Submit</button>
+            <span id="error1"></span>
+            <span id="error2"></span>
+            <span id="error3"></span>
+            <span id="error4"></span>
+            <button onClick="createTable()" id="submit-btn">Submit</button>
         </div>
         <div id="tables">
             <table id="table">
